@@ -53,8 +53,8 @@ Here are the exact milestones:
 | ------------- | ------------- |
 | Emi  | Website, content visualization and comments |
 | Sophie | Character analysis |
-| Marin|  Clustering, website |
-| Andrew|  Raw data rocessing, Sentiment analysis, Genre analysis|
+| Marin|  Data processing, Clustering, website |
+| Andrew|  Raw data processing, Sentiment analysis, Genre analysis|
 | Thomas|  Mediator, data visualization |
 
 ## Ethical Concerns
