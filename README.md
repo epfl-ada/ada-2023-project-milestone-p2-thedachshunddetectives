@@ -22,7 +22,7 @@ For this project, we will take you back in time... not too far: summer 2023. Pic
 | ------------- | ------------- |
 | Barbie & Oppenheimer  | manually extract data needed from IMDb |
 | IMDB ratings  | Getting ratings of 42000 movies to determine if movies are well-liked or not and how many people saw them  |
-| Get extended plots from IMDb using API  | Obtain more plots if necessary to enhance dataset, taking the largest plot size from either IMDb or CMU dataset |
+| Get extended plots from IMDb using API  | Obtain more plots to enhance dataset, taking the largest plot size from either IMDb or CMU dataset |
 
 ## Methods
 1. Genre Analysis: Obtain genres and subgenres from the Barbie and Oppenheimer dataset. Since there exists more than 200 genres, we will decide to cluster them using first Kmean clustering to find how often they overlap and then using KNN on the general sentiment of a plot to decide which subgenres fall together. Using this data we will compare the average rating of both categories throughout the years and in general.
