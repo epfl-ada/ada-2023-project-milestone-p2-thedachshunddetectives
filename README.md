@@ -58,3 +58,9 @@ Here are the exact milestones:
 ## Ethical Concerns
 1. Privacy
 2. Data Manipulation
+3. Presentation of Data
+4. Stakeholders
+
+## Questions for TAs (optional): 
+* Should we average every year or in groups of 3-5 years for average grossing in genres?
+* Same for actors: group for every couple of years or keep 1 year at a time?
