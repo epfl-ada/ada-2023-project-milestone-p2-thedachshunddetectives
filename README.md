@@ -25,12 +25,13 @@ For this project, we will take you back in time... not too far: summer 2023. Pic
 | Get extended plots from IMDb using API  | Obtain more plots to enhance dataset, taking the largest plot size from either IMDb or CMU dataset |
 
 ## Methods
-1. Genre Analysis: Obtain genres and subgenres from the Barbie and Oppenheimer dataset. Since there exists more than 200 genres, we will decide to cluster them using first Kmean clustering to find how often they overlap and then using KNN on the general sentiment of a plot to decide which subgenres fall together. Using this data we will compare the average rating of both categories throughout the years and in general.
+1. Genre Analysis: Obtain genres and subgenres from the Barbie and Oppenheimer dataset. Since there exists more than 200 genres, we will try to cluster movies by genres using Kmeans, kmodes or another clustering method to find how often they overlap and then using KNN on the general sentiment of a plot to decide which subgenres fall together. Using this data we will compare the average ratings of genres throughout the years and in general to determined if there was a link betwenn genre and success throughout the years.
 2. Actor Analysis: Observe which actor played a type of character more often (archetypes/typical characters) and relate it to the 2 movies. We will extend the analysis and look at the mean grossing of the movies containing these actors in general and attempt to correct for this factor. This can also be done by clustering and creating a distance threshold to check which characters are closer to the Barbenheimer ones, then looking at the mean grossing.
 3. Sentiment Analysis: Look at plots, summaries, and keywords to create positive vs negative trends. This will be conducted using the VADER module from the natural langage toolkit library. We then observe how well the movies have done, and then predict if Barbie was set to do better.
-4. Popularity Analysis: use plot summary embeddings to see which movies are similar to Barbie and Oppenheimer in terms of general sentiment and word recurence. We then observe the popularity of each and mean grossing over the years(includes 1 and 2 potentially). 
+4. Popularity Analysis: use plot summary embeddings to see which movies are similar to Barbie and Oppenheimer in terms of general sentiment and word recurence. We then observe the popularity of each and mean grossing over the years(includes 1 and 2 potentially).
+5. Character analysis. We would like to look at different character archetypes and perform some form of clustering or classification to check which archetypes have been popular throughout the years and relate them to the characters/archetypes we see in Barbie and Oppenheimer.
 
-Our limitation: We do not consider inflation and the value of money throughout the years. Actor age might be an important factor to consider. VADER has a hard time dealing with irony.
+Limitations: We do not consider inflation and the value of money throughout the years. Actor age might be an important factor to consider. VADER has a hard time dealing with irony.
 
 ## Proposed timeline: 
 Each chapter will begin on Wednesday (ADA course day), as our group is free to meet on that day. We will host weekly meetings on Wednesdays at noon to discuss the advancement of the project. Starting November 3rd, there are 8 weeks left to work on the project.
@@ -52,7 +53,7 @@ Here are the exact milestones:
 | ------------- | ------------- |
 | Emi  | Website, content visualization and comments |
 | Sophie | Character analysis |
-| Marin|  Clustering |
+| Marin|  Clustering, website |
 | Andrew|  Raw data rocessing, Sentiment analysis, Genre analysis|
 | Thomas|  Mediator, data visualization |
 
@@ -65,3 +66,4 @@ Here are the exact milestones:
 ## Questions for TAs (optional): 
 * Should we average every year or in groups of 3-5 years for average grossing in genres?
 * Same for actors: group for every couple of years or keep 1 year at a time?
+* Discussions about the genre clustering, relevant, incorrect, can be improved?
