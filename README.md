@@ -23,7 +23,7 @@ For this project, we will take you back in time... not too far: summer 2023. Pic
 | ------------- | ------------- |
 | Barbie & Oppenheimer Dataset  | manually extract data needed from IMDb and website for personality trait gathering|
 | MBTI Personality Traits  | Personality traits of the characters present in the movie datasets https://www.kaggle.com/datasets/subinium/movie-character-mbti-dataset/data|
-| IMDB Ratings | Personality traits of the characters present in the movie datasets|
+| IMDB Ratings | Ratings used for analysis obtained from https://developer.imdb.com/non-commercial-datasets/#titleratingstsvgz|
 
 ## Methods
 1. Genre Analysis: Trained an LDA model on the plots of English movies to assess the topical repartition of Barbie and Oppenheimer plots across the genres of Comedy, Adventure, war, drama, action, and fantasy. Used this data to confirm in which genres to categorize Barbie. Used VADER for sentiment analysis and decided to compare Barbie-like genres to Oppenheimer-like genres in terms of positive, negative, and compound values of plots of all movies. Decided to confirm the statistical significance of differences using t-tests. Repeated this process while binning the data across years assuming historical events may affect the differences themselves. Used the compound scores and release year to make a naive analysis of success using ratings, revenue, and number of votes as a metric combined with t-tests to assess statistical significance
