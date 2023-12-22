@@ -4,6 +4,9 @@ ada-2023-project-thedachshunddetectives created by GitHub Classroom
 
 ## Lights, Camera, ADA! Barbenheimer in Action
 
+## Github Website:
+Before diving into the rest of our README and Notebook, here is our a link to our website: mbonnassies.github.io  
+
 ## Abstract: 
 
 For this project, we will take you back in time... not too far: summer 2023. Picture this: you just landed an internship where you work on a task as big as the Manhattan Project, while your friend Ken's job is just, well, BEACH! Seems familiar? Both movies Barbie and Oppenheimer came out the same day during the summer of 2023, and there was a great deal of importance put on both movies. Somehow, Barbie seemed to have grossed higher than Oppenheimer... Is that a historical trend? Would Barbie still prevail in the previous years? That's what we'll be having a look at in this data story.
